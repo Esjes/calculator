@@ -34,7 +34,7 @@ buttonPlus.addEventListener('click', showInputPlus);
 buttonMinus.addEventListener('click', showInputMinus);
 buttonDivided.addEventListener('click', showInputDivided);
 buttonMultiply.addEventListener('click', showInputMultiply);
-//buttonReset.addEventListener('click', showInputReset);
+buttonReset.addEventListener('click', showInputReset);
 buttonEquals.addEventListener('click', showInputEquals);
 
 
@@ -76,6 +76,12 @@ function showInputEight() {
 
 function showInputNine() {
     displayInput.innerHTML += '9';
+}
+
+function showInputReset() {
+    displayInput.innerHTML = null,
+    displayOutput.innerHTML = null;
+
 }
 
 function showInputPlus() {
