@@ -10,13 +10,12 @@ html {
   font-family: 'Open Sans',Helvetica,Arial,sans-serif;
   font-size: 24px;
   font-size: 4vw;
-  font-weight: 300;
 }
 
 body {
   background: radial-gradient(circle, #433563, #1e113b);
   background-size: cover;
-  font-weight: none;
+  font-weight: normal !important;
 }
 
 .wrapper {
