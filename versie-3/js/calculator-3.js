@@ -18,6 +18,7 @@ arrShow.forEach(function (element) {
         calculator.classList.remove('devil');
         calculator.classList.remove('esje');
         calculator.classList.remove('koen');
+        calculator.classList.remove('jelle');
     }
     equals.addEventListener('click', calculate);
     function calculate() {
@@ -31,12 +32,15 @@ function jokes() {
     switch (displayOutput.innerHTML) {
         case '666':
         calculator.classList.add('devil');
-            break;
+        break;
         case '1967':
         calculator.classList.add('esje');
-            break;
+        break;
         case '1995':
         calculator.classList.add('koen');
+        break;
+        case '-20':
+        calculator.classList.add('jelle');
         break;
     }
 }

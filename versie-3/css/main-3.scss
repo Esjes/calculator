@@ -92,6 +92,8 @@
 
 .devil {
     background-image: url(../img/devil.jpg);
+    background-size:contain;
+    background-position: center;
 }
 
 .esje {
@@ -106,4 +108,17 @@
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.jelle {
+  background-image: url(../img/jelle.JPG);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.team{
+  font-size: 12px;
+  color: white;
+  text-align: center;
 }
